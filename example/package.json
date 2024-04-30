@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@spotlightjs/spotlight": "^1.2.17"
+  }
+}

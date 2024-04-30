@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask-sentry"
+version = "0.1.1"
+description = "Sentry and Spotlight integration for Flask"
+authors = ["Maxime Bouroumeau-Fuseau <maxime.bouroumeau@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/hyperflask/flask-sentry"
+packages = [{include = "flask_sentry.py"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^3.0.0"
+sentry-sdk = {extras = ["flask"], version = "^2.0.1"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

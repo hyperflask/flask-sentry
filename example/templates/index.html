@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ init_sentry() }}
+    </head>
+    <body>
+        Spotlight demo.
+        <button onclick="throw new Error('Hello from Sentry!')">Throw error</button>
+    </body>
+</html>
